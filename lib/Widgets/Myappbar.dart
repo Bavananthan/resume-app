@@ -18,12 +18,8 @@ class Myappbar extends StatelessWidget {
         padding: EdgeInsets.all(20),
         child: Row(
           children: [
-            IconButton(
-              icon: Icon(Icons.sort, size: 30, color: Colors.indigo),
-              onPressed: () {
+             Icon(Icons.sort, size: 30, color: Colors.indigo),
 
-              },
-            ),
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
               child: Text(
